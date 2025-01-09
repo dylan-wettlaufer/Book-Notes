@@ -1,0 +1,55 @@
+# Environment files
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build directories
+dist/
+build/
+frontend/build/
+frontend/dist/
+backend/build/
+backend/dist/
+
+# Temporary files and folders
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# OS-specific files
+.DS_Store
+*.bak
+*.backup
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Git-specific
+*.orig
+*.rej
+
+# Specific for React (frontend)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Specific for Express/Node.js (backend)
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
